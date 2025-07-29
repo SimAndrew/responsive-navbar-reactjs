@@ -1,5 +1,11 @@
+import NavBar from './NavBar.jsx';
+
 function App() {
-	return <h1>Responsive Navbar</h1>;
+	return (
+		<main>
+			<NavBar />
+		</main>
+	);
 }
 
 export default App;
